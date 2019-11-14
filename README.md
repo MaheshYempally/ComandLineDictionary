@@ -1,6 +1,8 @@
 # ComandLineDictionary
 
 sample inputs:
+
+
 php Command-line-dictionary.php
 
 php Command-line-dictionary.php play
