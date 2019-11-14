@@ -58,7 +58,7 @@ function dictionaryIndex($action, $word)
 function wordGame()
 {
     $word = wordGenerate();
-    echo "\nword\n" . $word;
+ //   echo "\nword\n" . $word;
     echo "\nDefinations:\n" . wordDefinations($word, 0);
     echo "\nSynonyms:\n" . wordSynonymsAndAntonyms($word, "synonym", 0);
     echo "\nAntonym:\n" . wordSynonymsAndAntonyms($word, "antonym", 0);
